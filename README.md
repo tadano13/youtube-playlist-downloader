@@ -18,6 +18,17 @@ A Python tool to download YouTube playlists.
    ```bash
    cd youtube-playlist-downloader
    ```
+## Required Libraries
+
+1. Install `requests` library:<br>
+```sh
+pip install requests
+```
+2. Install `python-dotenv` library:<br>
+```sh
+pip install python-dotenv
+```
+
 ## Usage
 
 1. Create a `.env` file in the root directory with the following content:
