@@ -1,46 +1,49 @@
-import requests
-from playlist_downloader import get_url
-import os 
-from dotenv import load_dotenv
+import requests  # Import the requests library to make HTTP requests
+from playlist_downloader import get_url  # Import the get_url function from playlist_downloader.py
+import os  # Import the os library to access environment variables
+from dotenv import load_dotenv  # Import load_dotenv to load environment variables from a .env file
 
+# Load environment variables from a .env file
 load_dotenv()
 
+# URL for the playlist API endpoint
 url = "https://yt-api.p.rapidapi.com/playlist"
 
+# Prompt the user to enter a playlist ID
 query = input("Enter Playlist id :")
-querystring = {"id":query}
+querystring = {"id": query}
 
+# Headers for the API request, including the API key and host from environment variables
 headers = {
-	"x-rapidapi-key": os.getenv('API_KEY'),
-	"x-rapidapi-host": "yt-api.p.rapidapi.com"
+    "x-rapidapi-key": os.getenv('API_KEY'),
+    "x-rapidapi-host": "yt-api.p.rapidapi.com"
 }
 
+# Make the API request to get playlist information
 response = requests.get(url, headers=headers, params=querystring)
+
+# Check if the API key is invalid
 if response.status_code == 403:
     print("API Key is invalid")
 else:
-	main = response.json()
+    # Parse the response JSON if the request is successful
+    main = response.json()
 
-print(f"Video Title:{main['meta']['title']}\n")
-print(f"Video Title:{main['meta']['description']}")
-print(f"Total Videos:{main['meta']['videoCountText']}") 
-print(f"Toral Views:{main['meta']['viewCountText']}")
+# Print playlist metadata
+print(f"Video Title: {main['meta']['title']}\n")
+print(f"Video Description: {main['meta']['description']}")
+print(f"Total Videos: {main['meta']['videoCountText']}")
+print(f"Total Views: {main['meta']['viewCountText']}")
+
+# Get the total number of videos in the playlist
 total_video = int(main['meta']['videoCount'])
 
-print("\nVideo Links :\n")
+# Print video links
+print("\nVideo Links:\n")
 
+# Loop through each video in the playlist and print its title and URL
 for i in range(total_video):
     v_id = main['data'][i]['videoId']
     set_url = get_url(v_id)
     print(f"\n{main['data'][i]['title']}\n")
     print(set_url)
-    
-    
-    
-
-    
-
-
-    
-
-
