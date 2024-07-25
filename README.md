@@ -42,8 +42,6 @@ pip install python-dotenv
 3. Follow the prompts to input the playlist URL code and other settings.<br>
    `EXAMPLE`<br>
    ![image](https://github.com/user-attachments/assets/b2881fe9-2c78-4ca2-b558-3ed25ab5ada1)
-   
 
+4. For `API_KEY` go to https://rapidapi.com/ytjar/api/yt-api and then subscribe to the basic free plan which gives you 500 requests per day.<br>
 
-
- 
