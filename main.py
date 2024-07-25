@@ -30,8 +30,8 @@ else:
     main = response.json()
 
 # Print playlist metadata
-print(f"Video Title: {main['meta']['title']}\n")
-print(f"Video Description: {main['meta']['description']}")
+print(f"Playlist Title: {main['meta']['title']}\n")
+print(f"Playlist Description: {main['meta']['description']}")
 print(f"Total Videos: {main['meta']['videoCountText']}")
 print(f"Total Views: {main['meta']['viewCountText']}")
 
