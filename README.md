@@ -29,7 +29,7 @@ A Python tool to download YouTube playlists.
    python main.py
    ```
 3. Follow the prompts to input the playlist URL code and other settings.<br>
-   `EXAMPLE`
+   `EXAMPLE`<br>
    ![image](https://github.com/user-attachments/assets/b2881fe9-2c78-4ca2-b558-3ed25ab5ada1)
    
 
