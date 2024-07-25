@@ -53,4 +53,21 @@ python main.py
 `EXAMPLE option 3`<br>
 ![image](https://github.com/user-attachments/assets/71c7576d-472d-4563-bc32-8d3ad73a19de)
 
+7. `URL` link will be generated for all the videos one by one click on them `TO follow link : ctrl + click` <br>
+`Example`<br>
+![image](https://github.com/user-attachments/assets/de0c44ea-71fe-4675-a93d-57f456416389)
+
+8. A video screen will be opened i am not showing complete screen shot due to some reasons
+`Example`<br>
+![image](https://github.com/user-attachments/assets/390fce41-28d0-4744-a7ef-ad0db90ea8c2)
+
+9. You will see an three dots option below of opened tab
+`Example`<br>
+![image](https://github.com/user-attachments/assets/fe1d3ede-1579-4f21-999e-27417ed54096)
+
+10. You will see a download button click on it and your download will be started.
+`Example`<br>
+![image](https://github.com/user-attachments/assets/deb06924-fba8-4225-b324-e5a0cc9c0084)
+
+
 
