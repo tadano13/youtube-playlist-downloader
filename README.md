@@ -31,22 +31,23 @@ pip install python-dotenv
 
 ## Usage
 
-1. Create a `.env` file in the root directory with the following content:
+1. For `API_KEY` go to https://rapidapi.com/ytjar/api/yt-api and then subscribe to the basic free plan which gives you 500 requests per day.<br>
+2. Create a `.env` file in the root directory with the following content:
 ```env
 API_KEY=your_api_key
 ```
-2. Run the main script:
+3. Run the main script:
 ```bash
 python main.py
 ```
-3. You can get playlist code in url when you open a playlist it will look like the example given below
+4. You can get playlist code in url when you open a playlist it will look like the example given below
 ![image](https://github.com/user-attachments/assets/631f13b8-f956-40f1-9d0f-4051b2ca5135)<br>
 - or you can find the code in video url link <br>
 ![image](https://github.com/user-attachments/assets/d48b8e94-92e1-472b-8cf4-e5b834e4f4cc)
 
-4. Follow the prompts to input the playlist URL code and other settings.<br>
+5. Follow the prompts to input the playlist URL code and other settings.<br>
 `EXAMPLE`<br>
 ![image](https://github.com/user-attachments/assets/b2881fe9-2c78-4ca2-b558-3ed25ab5ada1)
 
-5. For `API_KEY` go to https://rapidapi.com/ytjar/api/yt-api and then subscribe to the basic free plan which gives you 500 requests per day.<br>
+
 
