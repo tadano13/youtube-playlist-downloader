@@ -45,5 +45,5 @@ print("\nVideo Links:\n")
 for i in range(total_video):
     v_id = main['data'][i]['videoId']
     set_url = get_url(v_id)
-    print(f"\n{main['data'][i]['title']}\n")
+    print(f"\n{i+1}.{main['data'][i]['title']}\n")
     print(set_url)
