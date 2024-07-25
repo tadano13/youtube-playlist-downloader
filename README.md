@@ -49,5 +49,8 @@ python main.py
 `EXAMPLE`<br>
 ![image](https://github.com/user-attachments/assets/b2881fe9-2c78-4ca2-b558-3ed25ab5ada1)
 
+6. While running code on vs code run code with debug <br>
+`EXAMPLE option 3`<br>
+![image](https://github.com/user-attachments/assets/71c7576d-472d-4563-bc32-8d3ad73a19de)
 
 
